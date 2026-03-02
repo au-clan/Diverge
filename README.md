@@ -128,7 +128,14 @@ If the output is `True`, the key has been successfully configured.
 - `pyproject.toml` makes the local package (`divrag`) importable.
 - `requirements.txt` ensures full reproducibility of the experimental environment.
 
-## How to Start?
+
+## 🚀 How to Start
+
+Run evaluation with:
+
+```bash
+python ./src/evaluate.py --input_file "path/to/input.json" --output_dir "path/to/output"
+```
 
 ---
 
