@@ -1,6 +1,6 @@
 # Diverge
 
-## Background
+## 🎯 Overview
 
 Existing RAG systems are largely built around a *single-answer assumption* and are primarily optimized for correctness.
 However, many real-world information-seeking queries are **open-ended** and admit multiple plausible answers.
@@ -46,19 +46,7 @@ Importantly, DIVERGE operates **entirely at the retrieval and prompting level** 
 **does not rely on token-level logits or decoding hyperparameters**, making it
 compatible with **any frontier or closed-source LLM**.
 
-DIVERGE follows an iterative loop:
-
-1. Generate an initial RAG answer.
-2. Extract viewpoints from existing answers via reflection.
-3. Select or propose a new viewpoint.
-4. Retrieve new evidence conditioned on the viewpoint.
-5. Generate and refine a new answer grounded in the viewpoint.
-6. Update memory and repeat.
-
-This process enables DIVERGE to explore a broader space of perspectives without
-sacrificing answer quality.
-
-## Installation
+## 🛠️ Installation
 
 We provide a installation process to set up a virtual environment and install the necessary dependencies for our experiments. Follow the steps below to get started.
 
@@ -109,3 +97,22 @@ This step installs the exact dependency versions used in our experiments.
 - Both installation steps are required.
 - `pyproject.toml` makes the local package (`divrag`) importable.
 - `requirements.txt` ensures full reproducibility of the experimental environment.
+
+## How to Start?
+
+---
+
+---
+
+## Citation
+
+If you use this dataset, please cite:
+
+```bibtex
+@article{hu2026diverge,
+  title={DIVERGE: Diversity-Enhanced RAG for Open-Ended Information Seeking},
+  author={Hu, Tianyi and Tandon, Niket and Arora, Akhil},
+  journal={arXiv preprint arXiv:2602.00238},
+  year={2026}
+}
+```
