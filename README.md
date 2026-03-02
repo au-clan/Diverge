@@ -3,6 +3,12 @@
 ## Overview
 DIVERGE: Diversity-Enhanced Retrieval-Augmented Generation
 
+In open information-seeking settings, existing RAG systems implicitly assume a single correct answer and underutilize diverse retrieved contexts, causing generations to collapse toward dominant responses, as illustrated below.
+
+<p align="center">
+  <img src="assets/example.jpg" width="700">
+</p>
+
 DIVERGE is a plug-and-play, agentic Retrieval-Augmented Generation (RAG) framework
 designed to **enhance output diversity for open-ended information-seeking queries** while maintaining high answer quality.
 Unlike standard RAG systems that are optimized for a single correct answer,
@@ -11,6 +17,8 @@ retrieval and generation, while maintaining high answer quality.
 
 This repository contains the reference implementation and evaluation code for the paper  
 **“DIVERGE: Diversity-Enhanced Retrieval-Augmented Generation for Open-Ended Questions.”**  
+
+
 
 📄 Paper: https://arxiv.org/pdf/2602.00238
 
