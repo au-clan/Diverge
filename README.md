@@ -131,7 +131,23 @@ If the output is `True`, the key has been successfully configured.
 
 ## 🚀 How to Start
 
-Run evaluation with:
+
+
+### Run Evaluation
+
+### Run Demo Example
+
+```bash
+python ./src/example.py
+```
+
+### Run Main Pipeline
+
+```bash
+python ./src/main.py --output_dir "path/to/output"
+```
+
+### Run Demo Example
 
 ```bash
 python ./src/evaluate.py --input_file "path/to/input.json" --output_dir "path/to/output"
