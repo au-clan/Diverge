@@ -131,10 +131,6 @@ If the output is `True`, the key has been successfully configured.
 
 ## 🚀 How to Start
 
-
-
-### Run Evaluation
-
 ### Run Demo Example
 
 ```bash
