@@ -152,7 +152,8 @@ The repository is organized as follows:
 │
 ├── pyproject.toml           # Package configuration
 ├── requirements.txt         # Dependencies
-├── example.py              # Example script to run DIVERGE
+├── example.py               # Example script to run DIVERGE
+├── main.py                  # Example script to run DIVERGE for full experiments
 │
 └── README.md                # Project documentation
 ```
