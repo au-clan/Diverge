@@ -122,7 +122,7 @@ If the output is `True`, the key has been successfully configured.
 
 ---
 
-### Important Notes
+### Notes
 
 - Both installation steps are required.
 - `pyproject.toml` makes the local package (`divrag`) importable.
