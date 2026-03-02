@@ -138,14 +138,14 @@ The repository is organized as follows:
 
 ```
 .
-├── src/                     # Source code
-│
-├── data/                    # data and human annotation directory
-│
+├── src/                     # Source code for DIVERGE framework
+├── results/              # Experiment output logs
+├── data/                    # Data and human annotation directory
 ├── assets/                  # Figures for README (framework, examples)
 │
 ├── pyproject.toml           # Package configuration
 ├── requirements.txt         # Dependencies
+├── example.py              # Example script to run DIVERGE
 │
 └── README.md                # Project documentation
 ```
