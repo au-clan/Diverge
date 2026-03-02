@@ -22,6 +22,7 @@ This repository contains the reference implementation and evaluation code for th
 **“DIVERGE: Diversity-Enhanced Retrieval-Augmented Generation for Open-Ended Questions.”**  
 
 📄 Paper: https://arxiv.org/pdf/2602.00238
+
 🗂️ Dataset: https://huggingface.co/datasets/au-clan/Diverge
 
 ## 🧠 Key Ideas
@@ -90,6 +91,34 @@ pip install -r requirements.txt
 ```
 
 This step installs the exact dependency versions used in our experiments.
+
+---
+
+### 4. Set Up LLM API Key 
+
+To use GPT-based models, you need to provide your OpenAI API key as an environment variable.
+
+#### macOS / Linux
+
+```bash
+export OPENAI_API_KEY="your_api_key_here"
+```
+
+#### Windows (PowerShell)
+
+```powershell
+setx OPENAI_API_KEY "your_api_key_here"
+```
+
+After setting the key, restart your terminal if necessary.
+
+You can verify the key is available in Python:
+
+```bash
+python -c "import os; print(os.getenv('OPENAI_API_KEY') is not None)"
+```
+
+If the output is `True`, the key has been successfully configured.
 
 ---
 
