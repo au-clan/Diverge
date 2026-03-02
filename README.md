@@ -132,6 +132,24 @@ If the output is `True`, the key has been successfully configured.
 
 ---
 
+## 📁 Project Structure
+
+The repository is organized as follows:
+
+```
+.
+├── src/                     # Source code
+│
+├── data/                    # data and human annotation directory
+│
+├── assets/                  # Figures for README (framework, examples)
+│
+├── pyproject.toml           # Package configuration
+├── requirements.txt         # Dependencies
+│
+└── README.md                # Project documentation
+```
+
 ---
 
 ## Citation
