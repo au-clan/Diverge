@@ -3,7 +3,7 @@ from divrag import DivRAG
 # Prompt
 query = "Give me one tip less than 10 words about how to improve my coding skills."
 qid = 0
-num_answers = 10
+num_answers = 3
 
 print("Prompt:", query)
 
@@ -12,7 +12,7 @@ div = DivRAG(
     query=query,
     qid=qid,
     embed_model="text-embedding-3-small",
-    llm_model="gpt-5.1",
+    llm_model="gpt-5-mini",
     max_generation_num=num_answers,
     retrieval_chunk_size=512,
     debug=True,
