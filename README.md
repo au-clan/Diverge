@@ -22,6 +22,7 @@ This repository contains the reference implementation and evaluation code for th
 **“DIVERGE: Diversity-Enhanced Retrieval-Augmented Generation for Open-Ended Questions.”**  
 
 📄 Paper: https://arxiv.org/pdf/2602.00238
+🗂️ Dataset: https://huggingface.co/datasets/au-clan/Diverge
 
 ## 🧠 Key Ideas
 
@@ -34,9 +35,9 @@ DIVERGE improves diversity through three core mechanisms:
 
 2. **Diversity-Aware Retrieval**  
    Retrieved documents are reranked by jointly considering:
-   - relevance to the current query,
-   - diversity with respect to previously retrieved contexts (memory),
-   - diversity among candidates selected in the current iteration.
+   - relevance to the current query
+   - diversity with respect to previously retrieved contexts (memory)
+   - diversity among candidates selected in the current iteration
 
 3. **Viewpoint-Conditioned Generation with Memory**  
    Generation is conditioned on both the original query and a target viewpoint,
