@@ -179,7 +179,7 @@ If you use this dataset, please cite:
 ```bibtex
 @article{hu2026diverge,
   title={DIVERGE: Diversity-Enhanced RAG for Open-Ended Information Seeking},
-  author={Hu, Tianyi and Tandon, Niket and Arora, Akhil},
+  author={Anonymous},
   journal={arXiv preprint arXiv:2602.00238},
   year={2026}
 }
