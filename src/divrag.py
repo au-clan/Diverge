@@ -19,7 +19,7 @@ from prompt import *
 import hashlib
 import threading
 
-QUERY_CACHE_DIR = "/dtu/p1/tianyhu/cache/queries"
+#QUERY_CACHE_DIR = "<Path to  query directory>"
 os.makedirs(QUERY_CACHE_DIR, exist_ok=True)
 
 def cosine_sim(a, b):
