@@ -21,9 +21,7 @@ Unlike standard RAG systems that are optimized for a single correct answer, DIVE
 This repository contains the reference implementation and evaluation code for the paper  
 **“DIVERGE: Diversity-Enhanced Retrieval-Augmented Generation for Open-Ended Questions.”**  
 
-📄 Paper: https://arxiv.org/pdf/2602.00238
 
-🗂️ Dataset: https://huggingface.co/datasets/au-clan/Diverge
 
 ## 🧠 Key Ideas
 
