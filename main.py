@@ -88,7 +88,7 @@ def main():
     args = parse_args()
 
     dataset = DatasetDict.load_from_disk(
-        "./data/clan_diverge_dataset"
+        "./data/diverge_dataset"
     )["train"].select(range(100))
 
     with open(args.output, "w", encoding="utf-8") as f:
